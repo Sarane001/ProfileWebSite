@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: blueviolet;
+    background-image: url("./img/header/header-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.header-title {
+    margin: 0;
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.header-subtitle {
+    margin: 0;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.header-arrow {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
